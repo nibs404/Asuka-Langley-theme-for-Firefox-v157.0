@@ -14,4 +14,4 @@ Inside the profile folder, open (or create) a folder named chrome.
 
 Copy userChrome.css and all related image assets (asukabanner1.png, asukapxl4-red.png, etc.) directly into that chrome folder.
 
-Restart Firefox completely (Ctrl+Shift.
+Restart Firefox completely (Ctrl+Shift+Q)
