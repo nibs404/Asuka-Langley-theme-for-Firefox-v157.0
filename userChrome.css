@@ -1,0 +1,319 @@
+:root {
+    --sidebar-background-color: #0b0d13 !important;
+    --sidebar-text-color: #ff5c00 !important;
+    --sidebar-border-color: #ff5c00 !important;
+    --lwt-sidebar-background-color: #0b0d13 !important;
+    --lwt-sidebar-text-color: #ff5c00 !important;
+    --lwt-sidebar-highlight-background-color: #d41414 !important;
+    --lwt-sidebar-highlight-text-color: #ff8533 !important;
+    --toolbarbutton-icon-fill: #ff5c00 !important;
+    --lwt-icon-color: #ff5c00 !important;
+    --chrome-icon-color: #ff5c00 !important;
+    --sidebar-icon-color: #ff5c00 !important;
+    --focus-outline-color: #d41414 !important;
+    --button-active-background: rgba(212, 20, 20, 0.35) !important;
+    --button-hover-background: rgba(26, 28, 40, 0.8) !important;
+    --sidebar-icon-active-background: #d41414 !important;
+}
+
+#sidebar-main,
+sidebar-main,
+#sidebar-select-box,
+firefox-sidebar,
+sidebar-bar,
+.sidebar-button,
+sidebar-button {
+    --toolbarbutton-icon-fill: #ff5c00 !important;
+    --lwt-icon-color: #ff5c00 !important;
+    --chrome-icon-color: #ff5c00 !important;
+    --button-active-background: rgba(212, 20, 20, 0.35) !important;
+    --button-hover-background: rgba(26, 28, 40, 0.8) !important;
+    --focus-outline-color: #d41414 !important;
+    color: #ff5c00 !important;
+    fill: #ff5c00 !important;
+}
+
+#navigator-toolbox {
+    background-image: url("asukabanner1.png") !important;
+    background-size: 100% auto !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+}
+
+#nav-bar {
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+#nav-bar, #nav-bar .toolbarbutton-1, #nav-bar toolbaritem {
+    color: #ff5c00 !important;
+    fill: #ff5c00 !important;
+}
+
+#nav-bar .toolbarbutton-1,
+#nav-bar .toolbarbutton-1 .toolbarbutton-icon {
+    background-color: #0d0e15 !important;
+    border-radius: 6px !important;
+}
+
+#nav-bar .toolbarbutton-1 {
+    margin: 2px !important;
+}
+
+#nav-bar .toolbarbutton-1:hover,
+#nav-bar .toolbarbutton-1:hover .toolbarbutton-icon {
+    background-color: #1a1c28 !important;
+}
+
+#urlbar,
+#urlbar-background,
+#urlbar-input-container {
+    background-color: #0d0e15 !important;
+    opacity: 1 !important;
+    border-radius: 12px !important;
+}
+
+#urlbar-background {
+    border: 2px solid #ff5c00 !important;
+    border-radius: 8px !important;
+}
+
+#urlbar[focused="true"] #urlbar-background,
+#urlbar[focused="true"] #urlbar-input-container,
+#urlbar[focused="true"] {
+    background-color: #12141e !important;
+}
+
+#urlbar-input {
+    color: #ff5c00 !important; 
+}
+
+#urlbar-input-container .urlbar-icon,
+#urlbar-input-container .urlbar-page-action,
+#identity-box image,
+#star-button,
+#page-action-buttons image {
+    fill: #d60000 !important;
+    color: #d60000 !important;
+    background-color: transparent !important;
+}
+
+#urlbar-input-container .urlbar-icon:hover,
+#urlbar-input-container .urlbar-page-action:hover,
+#identity-box:hover image,
+#star-button:hover {
+    fill: #d41414 !important;
+    color: #d41414 !important;
+    background-color: transparent !important;
+}
+
+#back-button:hover,
+#back-button:hover .toolbarbutton-icon,
+#forward-button:hover,
+#forward-button:hover .toolbarbutton-icon,
+#reload-button:hover,
+#reload-button:hover .toolbarbutton-icon,
+#sidebar-button:hover,
+#sidebar-button:hover .toolbarbutton-icon {
+    background-color: #ff4500 !important;
+    fill: #ffffff !important;
+    color: #ffffff !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+    background-color: rgba(15, 15, 15, 0.95) !important;
+    border-top: 2px solid #ff4500 !important; 
+}
+
+.tabbrowser-tab[selected="true"] .tab-text {
+    color: #fffefd !important; 
+    font-weight: bold !important;
+}
+
+.tabbrowser-tab:not([selected="true"]) .tab-background {
+    background-color: rgba(20, 20, 20, 0.95) !important;
+}
+
+.tabbrowser-tab:not([selected="true"]) .tab-text {
+    color: #ff5c00 !important;
+}
+
+tab-group {
+    outline: 2px solid #000000 !important;
+    outline-offset: -1px !important;
+    border-radius: 6px !important;
+}
+
+.tab-group-label {
+    border: 1px solid #000000 !important;
+}
+
+#PersonalToolbar {
+    background-color: transparent !important;
+    color: #ff4500 !important;
+}
+
+#PersonalToolbar .bookmark-item {
+    background-color: rgba(15, 15, 15, 0.8) !important;
+    border-radius: 10px !important;
+    padding: 2px 6px !important;
+    margin: 1px 2px !important;
+    color: #ff5c00 !important;
+}
+
+#PersonalToolbar .bookmark-item:hover {
+    background-color: rgba(30, 30, 30, 0.85) !important;
+    color: #ff8533 !important;
+}
+
+#sidebar-main,
+sidebar-main,
+#sidebar-box,
+#sidebar,
+sidebar-bar,
+firefox-sidebar {
+    background-color: #0b0d13 !important;
+    color: #ff5c00 !important;
+}
+
+#sidebar-box,
+#sidebar-main,
+firefox-sidebar {
+    border-right: 1px solid #ff5c00 !important;
+    border-left: 1px solid #ff5c00 !important;
+}
+
+#sidebar-header {
+    background-color: #0b0d13 !important;
+    border-bottom: 1px solid #ff5c00 !important;
+}
+
+#sidebar-switcher-target,
+#sidebar-title,
+.sidebar-header-label {
+    color: #ff5c00 !important;
+}
+
+.sidebar-placesTree,
+#bookmarks-view,
+#historyTree,
+#sidebar-panel,
+.sidebar-panel {
+    background-color: #0b0d13 !important;
+    color: #ff5c00 !important;
+}
+
+.sidebar-placesTree treechildren::-moz-tree-cell-text,
+#bookmarks-view treechildren::-moz-tree-cell-text,
+#historyTree treechildren::-moz-tree-cell-text {
+    color: #ff5c00 !important;
+}
+
+.sidebar-placesTree treechildren::-moz-tree-cell-text(selected),
+#bookmarks-view treechildren::-moz-tree-cell-text(selected),
+#historyTree treechildren::-moz-tree-cell-text(selected) {
+    color: #ffffff !important;
+}
+
+.sidebar-placesTree treechildren::-moz-tree-row(hover),
+#bookmarks-view treechildren::-moz-tree-row(hover),
+#historyTree treechildren::-moz-tree-row(hover) {
+    background-color: #1a1c28 !important;
+    border: 1px solid #ff5c00 !important;
+}
+
+.sidebar-placesTree treechildren::-moz-tree-row(selected),
+#bookmarks-view treechildren::-moz-tree-row(selected),
+#historyTree treechildren::-moz-tree-row(selected) {
+    background-color: #ff4500 !important;
+}
+
+#sidebar-select-box,
+#sidebar-actions,
+#sidebar-icon-picker,
+.sidebar-button,
+toolbarbutton.sidebar-button,
+.tools-and-extensions-grid button,
+.tools-and-extensions-grid toolbarbutton {
+    background-color: #0b0d13 !important;
+    color: #ff5c00 !important;
+    fill: #ff5c00 !important;
+}
+
+.sidebar-button:hover,
+#sidebar-actions button:hover,
+.tools-and-extensions-grid button:hover,
+.tools-and-extensions-grid toolbarbutton:hover {
+    background-color: #1a1c28 !important;
+    fill: #ff8533 !important;
+    color: #ff8533 !important;
+}
+
+.sidebar-button[selected],
+.sidebar-button[checked="true"],
+.sidebar-button[active],
+sidebar-button[selected],
+sidebar-button[checked="true"],
+sidebar-button[active],
+.sidebar-button:focus-visible,
+sidebar-button:focus-visible {
+    background-color: rgba(212, 20, 20, 0.35) !important;
+    border-color: #d41414 !important;
+    outline: 2px solid #d41414 !important;
+    outline-offset: -2px !important;
+    box-shadow: 0 0 0 2px #d41414 !important;
+    fill: #ffffff !important;
+    color: #ffffff !important;
+}
+
+#sidebar-search-container input,
+#search-box {
+    background-color: #0d0e15 !important;
+    color: #ff5c00 !important;
+    border: 1px solid #ff5c00 !important;
+    border-radius: 6px !important;
+}
+
+#sidebar-box .toolbarbutton-icon,
+#sidebar-select-box image,
+#sidebar-actions image,
+.sidebar-button image,
+firefox-sidebar image,
+sidebar-bar image,
+#sidebar-header image {
+    fill: #ff5c00 !important;
+    color: #ff5c00 !important;
+    -moz-context-properties: fill, fill-opacity, stroke !important;
+}
+
+#sidebar-box .toolbarbutton-1:hover .toolbarbutton-icon,
+.sidebar-button:hover image,
+#sidebar-actions button:hover image,
+firefox-sidebar :hover image {
+    fill: #ff8533 !important;
+    color: #ff8533 !important;
+}
+
+.sidebar-button[selected] image,
+.sidebar-button[checked="true"] image,
+.sidebar-button[active] image,
+sidebar-button[selected] image,
+sidebar-button[checked="true"] image,
+sidebar-button[active] image {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+}
+
+#TabsToolbar::after {
+    content: "" !important;
+    display: block !important;
+    width: 32px !important;
+    height: 32px !important;
+    background-image: url("asukapxl4-red.png") !important;
+    background-size: 120% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    margin-left: auto !important;
+    align-self: center !important;
+}
